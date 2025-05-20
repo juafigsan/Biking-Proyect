@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Biking Clinic</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+<style>
+  body {
+    scroll-behavior: smooth;
+    font-size: 1.1rem;
+    background-image: url('bicycle-seamless-pattern-cycling-isolated-background-wallpaper-vintage-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0; /* Asegura que no haya desbordamiento horizontal */
+    padding: 0;
+    overflow-x: hidden; /* Evita que el contenido se salga horizontalmente */
+  }
+
+  .testimonial-text {
+    font-style: italic;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+
+  #contacto label {
+    color: white !important;
+  }
+
+  #contacto .form-control {
+    background-color: white !important;
+    color: black !important;
+    border-color: white;
+  }
+</style>
+  
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+<div class="container-fluid">
+<a class="navbar-brand d-flex align-items-center" href="#">
+<img alt="Universidad Central" class="me-2" height="40" src="logo_1.png" width="40"/>
+        Bike Project
+      </a>
+<button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#nosotros"><i class="bi bi-people"></i> About Us</a></li>
+<li class="nav-item"><a class="nav-link" href="#importancia"><i class="bi bi-heart-pulse"></i> Importance</a></li>
+<li class="nav-item"><a class="nav-link" href="#seguridad"><i class="bi bi-shield-lock"></i> Safety</a></li>
+<li class="nav-item"><a class="nav-link" href="#conductores"><i class="bi bi-exclamation-triangle"></i> Drivers</a></li>
+<li class="nav-item"><a class="nav-link" href="#medioambiente"><i class="bi bi-tree"></i> Environment</a></li>
+<li class="nav-item"><a class="nav-link" href="#consejos"><i class="bi bi-lightbulb"></i> Tips</a></li>
+<li class="nav-item"><a class="nav-link" href="#galeria"><i class="bi bi-images"></i> Gallery</a></li>
+<li class="nav-item"><a class="nav-link" href="#entrevistas"><i class="bi bi-camera-video"></i> Interviews</a></li>
+<li class="nav-item"><a class="nav-link" href="#noticias"><i class="bi bi-newspaper"></i> News</a></li>
+<li class="nav-item"><a class="nav-link" href="#contacto"><i class="bi bi-envelope"></i> Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- Header -->
+<header class="bg-light text-center py-5">
+<div class="container" style=" background-color: white;">
+<h1 class="display-4 text-success">Biking Clinic</h1>
+<p class="lead">An ecological, healthy, and safe proposal for everyone</p>
+<img alt="Bike header image" class="img-fluid rounded shadow mt-4" src="shutterstock_744017425_thumb.jpg" style="max-height: 500px;"/>
+</div>
+</header>
+<!-- About Us -->
+<section class="container py-5" id="nosotros" style=" background-color: white;">
+<h2 class="text-success mb-4"><i class="bi bi-people"></i> Who are we? And why Biking Clinic?</h2>
+<div class="row align-items-center">
+<div class="col-md-6 mb-4 mb-md-0 text-center">
+<img alt="Project team" class="img-fluid rounded shadow" src="rancho-cacachilas-clinica-ciclismo6.jpg" style="max-height: 400px;"/>
+</div>
+<div class="col-md-6">
+<p>We are Juan David García and Juan Sebastián Figueroa, students of Mechanical Engineering passionate about promoting cycling as an eco-friendly, accessible, and healthy way to get around. Our project, <strong>"Biking Clinic"</strong>, is dedicated to cyclist safety, offering tips and resources to help riders stay protected on the road. Through this initiative, we aim to raise awareness about the importance of caring for the environment while also prioritizing the health and safety of every cyclist. With our technical background, we also understand the mechanics and efficiency behind bicycles, which enhances our commitment to improving the cycling experience for everyone.</p>
+<p>By fostering a community that supports cycling, we hope to inspire more people to adopt this sustainable transportation method, making our cities cleaner and healthier places to live.</p>
+</div>
+</div>
+</section>
+<!-- Importance -->
+<section class="container py-5 bg-light" id="importancia" style=" background-color: white;">
+<h2 class="text-success"><i class="bi bi-heart-pulse"></i> Why is cycling important?</h2>
+<div class="row align-items-center">
+<div class="col-md-6">
+<ul>
+<li><strong>Improves health:</strong> reduces the risk of heart disease, diabetes, and obesity by promoting regular physical activity and cardiovascular fitness.</li>
+<li><strong>Efficient mobility:</strong> faster and more convenient for short trips in congested urban areas, helping reduce traffic jams and commute times.</li>
+<li><strong>No polluting emissions:</strong> cycling produces zero greenhouse gases and helps decrease air pollution, contributing to cleaner, healthier environments.</li>
+<li><strong>Affordable and economical:</strong> requires low investment for purchase and maintenance compared to motor vehicles, saving money for individuals and families.</li>
+</ul>
+<p>Encouraging cycling can also lead to less noise pollution and increased social interaction, enhancing the overall quality of life in communities.</p>
+</div>
+<div class="col-md-6">
+<img alt="Benefits of cycling" class="img-fluid rounded shadow" src="2.jpg" style="max-height: 400px;"/>
+</div>
+</div>
+</section>
+<!-- Safety -->
+<section class="container py-5" id="seguridad" style=" background-color: white;">
+<h2 class="text-success"><i class="bi bi-shield-lock"></i> Cyclist safety measures</h2>
+<div class="row align-items-center">
+<div class="col-md-6 mb-3 mb-md-0 text-center">
+<img alt="Cyclist safety" class="img-fluid rounded shadow w-75" src="Imagen de WhatsApp 2025-05-18 a las 17.54.58_36afa7ec.jpg"/>
+</div>
+<div class="col-md-6">
+<ol>
+<li>Always wear a helmet when riding to protect your head in case of falls or collisions.</li>
+<li>Check brakes, tires, and lights before every ride to ensure your bike is in good condition.</li>
+<li>Wear bright or reflective clothing, especially at night, to increase visibility to motorists.</li>
+<li>Use hand signals when turning and obey all traffic rules to communicate your intentions clearly.</li>
+<li>Avoid using headphones to stay aware of your surroundings and hear traffic sounds.</li>
+</ol>
+<p>By following these safety measures, cyclists can significantly reduce the risk of accidents and enjoy a safer riding experience.</p>
+</div>
+</div>
+</section>
+<!-- Driver Considerations -->
+<section class="container py-5 bg-light" id="conductores" style=" background-color: white;">
+<h2 class="text-success"><i class="bi bi-exclamation-triangle"></i> Considerations for Drivers</h2>
+<div class="row align-items-center">
+<!-- Text content -->
+<div class="col-md-6">
+<p>Drivers play a crucial role in protecting cyclists. Awareness and mutual respect can prevent accidents and save lives. Keep these guidelines in mind:</p>
+<ul>
+<li><strong>Maintain a safe distance:</strong> Leave at least 1.5 meters when overtaking a cyclist.</li>
+<li><strong>Don't honk unnecessarily:</strong> Loud horns can scare cyclists and cause them to lose control.</li>
+<li><strong>Check your mirrors:</strong> Especially when turning or opening doors near bike lanes.</li>
+<li><strong>Respect bike lanes:</strong> Never block or drive in spaces designated for bicycles.</li>
+<li><strong>Be patient:</strong> Cyclists may be slower but have equal rights to use the road.</li>
+<li><strong>Drive responsibly:</strong> Stay alert, avoid distractions, and never use your phone while driving.</li>
+</ul>
+<p>Creating safer roads is everyone's responsibility. Together, we can ensure a secure environment for all road users.</p>
+</div>
+<!-- Image -->
+<div class="col-md-6 text-center">
+<img alt="Drivers and cyclists" class="img-fluid rounded shadow" src="conductores-ciclistas.jpg" style="max-height: 500px;width: 100%; object-fit: cover;"/>
+</div>
+</div>
+</section>
+<!-- Environment -->
+<section class="container py-5 bg-light" id="medioambiente" style=" background-color: white;">
+<h2 class="text-success"><i class="bi bi-tree"></i> Cycling and the environment</h2>
+<p>A bicycle doesn’t just move you — it moves the world toward a cleaner future. Every kilometer pedaled means fewer CO₂ emissions, less noise, and more livable cities. It’s a practical way to combat climate change in our everyday lives.</p>
+<p>Switching to cycling for daily transport reduces dependency on fossil fuels, lowers your carbon footprint, and helps preserve natural resources for future generations.</p>
+<div class="text-center">
+<img alt="Bike and environment" class="img-fluid rounded shadow mt-3" src="1.jpg" style="max-width: 700px;"/>
+</div>
+</section>
+<!-- Tips -->
+<section class="container py-5" id="consejos" style=" background-color: white;">
+<h2 class="text-success"><i class="bi bi-lightbulb"></i> Tips for new cyclists</h2>
+<ul>
+<li>Start with short and safe routes to build confidence and skills gradually.</li>
+<li>Get familiar with bike lanes in your city to ensure safer rides and better navigation.</li>
+<li>Avoid high-traffic areas until you gain experience and feel comfortable riding in different conditions.</li>
+<li>Use a bike that fits your size and riding style (urban, mountain, etc.) to improve comfort and control.</li>
+</ul>
+<p>Joining local cycling groups or taking beginner classes can also boost your confidence and knowledge.</p>
+</section>
+<!-- Gallery -->
+<section class="container py-5 bg-light" id="gallery" style=" background-color: white;">
+<h2 class="text-success text-center mb-4">
+<i class="bi bi-images"></i> Gallery
+  </h2>
+<p class="text-center fst-italic mx-auto" style="max-width: 600px;">
+    We chose the area known as Alto de los Patios, near Bogotá, because of its strong cycling community. We explored this location, assessed its conditions, and interviewed cyclists who frequently ride there to better understand their experiences and safety needs.
+  </p>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mt-4">
+<div class="col">
+<img alt="Cyclist riding through the city" class="img-fluid rounded shadow" src="4.jpg"/>
+</div>
+<div class="col">
+<img alt="Group of cyclists on the road" class="img-fluid rounded shadow" src="3.jpg"/>
+</div>
+<div class="col">
+<img alt="Bicycle in a natural landscape" class="img-fluid rounded shadow" src="lospatios3.jpg"/>
+</div>
+</div>
+</section>
+
+<div class="bg-white p-4 rounded shadow my-4 mx-auto" style="max-width: 800px;">
+  <h3 class="text-center text-success mb-3">How to ride and what are the safety measures for a cyclist</h3>
+  <div class="text-center">
+    <video class="rounded shadow" controls style="max-width: 720px; width: 100%;">
+      <source src="Video de WhatsApp 2025-05-18 a las 18.59.24_8621c826.mp4" type="video/mp4"/>
+      Your browser does not support this video.
+    </video>
+  </div>
+  <p class="text-center fst-italic mt-2">
+    Video about cycling safety equipment made by Juan David Garcia.
+  </p>
+</div>
+
+<!-- Interviews -->
+<section class="container py-5" id="entrevistas" style=" background-color: white;">
+<h2 class="text-success text-center mb-4"><i class="bi bi-camera-video"></i> Interviews and Testimonials</h2>
+<div class="row mb-3 justify-content-center">
+<div class="col-md-4 mb-3">
+<video class="w-100 rounded shadow" controls="" id="video1" style="max-height: 250px;">
+<source src="Video de WhatsApp 2025-05-19 a las 20.01.31_e8b550b4.mp4" type="video/mp4"/>
+          Your browser does not support this video.
+        </video>
+<p class="testimonial-text" id="texto1">"Nicolas Jimenez, I had an accident due to little pressure in the back wheel when going very fast, this happened at Alto del Verjón."</p>
+</div>
+<div class="col-md-4 mb-3">
+<video class="w-100 rounded shadow" controls="" id="video2" style="max-height: 250px;">
+<source src="Video de WhatsApp 2025-05-19 a las 20.01.31_6b5e3d43.mp4" type="video/mp4"/>
+          Your browser does not support this video.
+        </video>
+<p class="testimonial-text" id="texto2">"Nicolas, I have felt insecure especially at night, you have to walk through illuminated areas"</p>
+</div>
+<div class="col-md-4 mb-3">
+<video class="w-100 rounded shadow" controls="" id="video3" style="max-height: 250px;">
+<source src="Video de WhatsApp 2025-05-19 a las 20.01.32_b4221743.mp4" type="video/mp4"/>
+          Your browser does not support this video.
+        </video>
+<p class="testimonial-text" id="texto3">"Julian, whenever I can use my helmet I do, I also use the bicycle lighting devices at night."</p>
+</div>
+</div>
+</section>
+<div class="d-flex justify-content-center">
+  <div class="mt-4 px-4 py-4" style="background-color: white; max-width: 900px; text-align: center; border-radius: 10px;">
+    <h3 class="text-success mb-3">Problematic and Solution</h3>
+    <p class="fw-medium">
+      We conducted these interviews to better understand the current reality faced by cyclists in our community. Through their voices, we were able to identify not only the positive aspects of cycling—such as physical health, mental well-being, and environmental benefits—but also the challenges they experience on a daily basis, particularly regarding safety and road coexistence.
+      <br/><br/>
+      Many of the participants shared responsible habits, such as using helmets, lights, and following traffic regulations. However, we also observed that not all cyclists maintain consistent safety practices. Some neglect basic precautions, whether due to lack of education, confidence, or simply habit. These testimonies confirm that insecurity on the road is a recurring concern, and not all users are fully prepared or protected.
+      <br/><br/>
+      We recognize that achieving a complete and effective solution is complex. Changing behavior and increasing awareness are long-term challenges that go hand in hand with education, culture, and urban policy. It is unrealistic to think that safety can be guaranteed 100%, especially when individual responsibility, government support, and infrastructure must all work together. However, this complexity does not stop us from acting.
+      <br/><br/>
+      Our main goal is to promote the health and safety of cyclists. We believe that even small changes can have a meaningful impact. Raising awareness, providing access to protective gear, and encouraging a culture of mutual respect on the road are essential steps. Promoting these values is our way of contributing to a safer, healthier, and more conscious cycling community.
+      <br/><br/>
+      As a possible approach, we suggest a realistic and scalable educational campaign focused on everyday practices, supported by workshops, informative materials, and community engagement. Rather than offering a perfect solution, we aim to start a movement that gradually improves conditions and strengthens a sense of care and responsibility among all road users.
+    </p>
+  </div>
+</div>
+<!-- News -->
+<section class="container py-5 bg-light" id="noticias" style=" background-color: white;">
+<h2 class="text-success text-center mb-4"><i class="bi bi-newspaper"></i> News about cycling and safety</h2>
+<div class="row g-4">
+<div class="col-md-6 col-lg-3">
+<a class="text-decoration-none text-dark" href="https://bogota.gov.co/mi-ciudad/movilidad/bogota-refuerza-red-de-ciclorrutas-para-impulsar-movilidad-sostenible#:~:text=Bogot%C3%A1%20cuenta%20con%20una%20red,una%20red%20segura%20y%20robusta." target="_blank">
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">Bogotá strengthens its network of cycle paths to promote sustainaible mobility</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="col-md-6 col-lg-3">
+<a class="text-decoration-none text-dark" href="https://www.idrd.gov.co/noticias/la-alcaldia-de-bogota-lanzo-campana-de-cultura-ciudadana-en-la-ciclovia" target="_blank">
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">Citizen culture campaign on Bogota cycle path</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="col-md-6 col-lg-3">
+<a class="text-decoration-none text-dark" href="https://bogota.gov.co/mi-ciudad/movilidad/red-de-estacionamientos-de-micromovilidad-sigue-creciendo-en-bogota" target="_blank">
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">Micromobility parking network continues to grow in Bogota</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="col-md-6 col-lg-3">
+<a class="text-decoration-none text-dark" href="https://www.eltiempo.com/bogota/cuanto-es-el-dinero-que-ahorra-una-persona-cuando-se-moviliza-en-bicicleta-por-850290" target="_blank">
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">How much money does a person save by commuting by bike?</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- Contact -->
+  <section id="contacto" class="container-fluid py-5 bg-success text-light">
+    <div class="container">
+      <h2 class="text-center mb-4"><i class="bi bi-envelope"></i> Contact</h2>
+      <p class="text-center mb-4">We’d love to hear from you! Whether you have questions, suggestions, or want to get involved with Biking Clinic, feel free to reach out.</p>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Your name" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="you@example.com" />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" class="form
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
